@@ -1,0 +1,26 @@
+@media (max-width: 1000px){
+    .content{
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .menu-icon{
+        display: none;
+    }
+}
+
+@media (max-width: 670px){
+    .content{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+    footer{
+        height: 110px;
+    }
+}
